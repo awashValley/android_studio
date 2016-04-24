@@ -1,0 +1,10 @@
+
+[Sun 24Apr2016]. Android Studio rendering problems;
+   [Source: http://stackoverflow.com/questions/18195807/android-studio-rendering-problems]
+   1. Open AndroidManifest.xml
+   2. Change:
+      android:theme="@style/AppTheme"
+      to something like:
+        android:theme="@style/Theme.AppCompat.Light"
+   3. Hit "refresh" button in the "Previev" tab.
+
